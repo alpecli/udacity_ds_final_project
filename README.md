@@ -1,8 +1,10 @@
 # Final project of the Data Streaming Udacity nanodegree program.
 This project contains the code of the `SF Crimes Statistics with Spark Streaming` project, the final project from Udacity Data Streaming nanodegree program.
-The screenshots are all located in the `screenshots.zip` file.
+
 All source code is located in the `src` folder.
 All data used in the project is located in the `data` folder.
+All configuration files (from both Zookeeper and Kafka) are located in the `config` folder.
+The screenshots are all located in the `screenshots.zip` file. The first screenshot shows the console output of the kafka consumer. The second screenshot shows the output of the count agg function from `data_stream.py` spark job. The third one shows the Spark Web UI from the `data_stream.py` spark job.
 ## Questions
 ### Q.1 - How did changing values on the SparkSession property parameters affect the throughput and latency of the data?
  ##### A: Changing some configuration values from SparkSession allowed Spark to process Kafka messages faster, which decreased the latency of the data received.
